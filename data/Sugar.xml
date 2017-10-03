@@ -1,0 +1,16 @@
+<simulation name="Sugar">
+	<title>Sugar Simulator</title>
+	<author>Parker Pearson</author>
+	<parameter>
+	</parameter>
+	<colormap>
+	</colormap>
+	<grid_type>finite</grid_type>
+	<grid_shape>square</grid_shape>
+	<initial_grid>
+	</initial_grid>
+	<grid_dimension>
+		<num_row>30</num_row>
+		<num_col>30</num_col>
+	</grid_dimension>
+</simulation>

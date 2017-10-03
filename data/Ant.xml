@@ -1,0 +1,21 @@
+<simulation name="Ant">
+	<title>Ant Simulator</title>
+	<author>Parker Pearson</author>
+	<parameter>
+	</parameter>
+	<colormap>
+		<color>white</color>
+		<color>black</color>
+		<color>green</color>
+		<color>blue</color>
+		<color>red</color>
+	</colormap>
+	<grid_type>toroidal</grid_type>
+	<grid_shape>hexagon</grid_shape>
+	<initial_grid>
+	</initial_grid>
+	<grid_dimension>
+		<num_row>30</num_row>
+		<num_col>30</num_col>
+	</grid_dimension>
+</simulation>

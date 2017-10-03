@@ -1,0 +1,31 @@
+<simulation name="Fire">
+	<title>Fire Spreading Simulator</title>
+	<author>Parker Pearson</author>
+	<parameter>
+		<prob_catch>0.6</prob_catch>
+	</parameter>
+	<colormap>
+		<color>white</color>
+		<color>green</color>
+		<color>red</color>
+	</colormap>
+	<grid_type>finite</grid_type>
+	<grid_shape>square</grid_shape>
+	<initial_grid>
+		00220111111
+		12221111101
+		10001112111
+		11121120111
+		11101102001
+		11111111111
+		11111002111
+		10111121111
+		11111111111
+		12111111101
+		20211010111
+	</initial_grid>
+	<grid_dimension>
+		<num_row>11</num_row>
+		<num_col>11</num_col>
+	</grid_dimension>
+</simulation>

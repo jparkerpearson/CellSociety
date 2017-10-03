@@ -1,0 +1,21 @@
+<simulation name="RPS">
+	<title>Rock, Paper, and Scissors Simulator</title>
+	<author>Parker Pearson</author>
+	<parameter>
+		<probability>0.5</probability>
+	</parameter>
+	<colormap>
+		<color>white</color>
+		<color>cyan</color>
+		<color>yellow</color>
+		<color>magenta</color>
+	</colormap>
+	<grid_type>finite</grid_type>
+	<grid_shape>square</grid_shape>
+	<initial_grid>
+	</initial_grid>
+	<grid_dimension>
+		<num_row>30</num_row>
+		<num_col>30</num_col>
+	</grid_dimension>
+</simulation>

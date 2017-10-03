@@ -1,0 +1,29 @@
+<simulation name="GameOfLife">
+	<title>Game of Life Simulator</title>
+	<author>Parker Pearson</author>
+	<parameter>
+	</parameter>
+	<colormap>
+		<color>white</color>
+		<color>black</color>
+	</colormap>
+	<grid_type>finite</grid_type>
+	<grid_shape>square</grid_shape>
+	<initial_grid>
+		00000000000
+		00000000000
+		00000000000
+		00011101000
+		00010000000
+		00000011000
+		00001101000
+		00010101000
+		00000000000
+		00000000000
+		00000000000
+	</initial_grid>
+	<grid_dimension>
+		<num_row>11</num_row>
+		<num_col>11</num_col>
+	</grid_dimension>
+</simulation>

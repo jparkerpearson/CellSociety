@@ -1,0 +1,18 @@
+Refactoring
+=========
+
+### Grid
+
+We decided to turn our Grid class into an abstract class, since its subclasses below it implemented some of its methods.  With this, we turned some of Grid's methods abstract, since all of the subclasses implemented the methods in their own way.
+
+We also created a new method addNeighbors() for Grid, since we found that all of the subclasses used the same block of code. This gets rid of the code duplication.
+
+### Gridmaker
+Originally, our GridMaker class was an interface. However, we found that the classes the implemented GridMaker implemented some of the methods in the exact same way. So, to avoid duplicated code, we turned GridMaker into an abstract class and refactored the duplicated code into a method. 
+
+###GridRenderer
+
+There was two methods in GridRenderer called createGrid() and renderGrid() that had a very similar action: iterating through the same array. So, we merged createGrid() and renderGrid() into one method that takes in a boolean that allows it to switch between the purposes of creating a grid and rendering it. 
+
+###Cell
+Changed proteced variables to private variables to make design more modular.

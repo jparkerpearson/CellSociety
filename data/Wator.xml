@@ -1,0 +1,22 @@
+<simulation name="Wator">
+	<title>Wa-Tor Prey-Predator Simulator</title>
+	<author>Raphael Kim</author>
+	<parameter>
+		<breeding_age>4</breeding_age>
+		<breeding_energy>10</breeding_energy>
+		<energy_per_fish>2</energy_per_fish>
+	</parameter>
+	<colormap>
+		<color>skyblue</color>
+		<color>yellow</color>
+		<color>green</color>
+	</colormap>
+	<grid_type>toroidal</grid_type>
+	<grid_shape>square</grid_shape>
+	<initial_grid>
+	</initial_grid>
+	<grid_dimension>
+		<num_row>30</num_row>
+		<num_col>30</num_col>
+	</grid_dimension>
+</simulation>

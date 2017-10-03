@@ -1,0 +1,31 @@
+<simulation name="Segregation">
+	<title>Segregation Simulator</title>
+	<author>Parker Pearson</author>
+	<parameter>
+		<similarity_threshold>.5</similarity_threshold>
+	</parameter>
+	<colormap>
+		<color>white</color>
+		<color>blue</color>
+		<color>red</color>
+	</colormap>
+	<grid_type>finite</grid_type>
+	<grid_shape>square</grid_shape>
+	<initial_grid>
+		11200222122
+		20222122121
+		12220111011
+		12112211122
+		01222210002
+		12122110101
+		21221112101
+		12120222220
+		21111102101
+		21221222212
+		21112111102
+	</initial_grid>
+	<grid_dimension>
+		<num_row>11</num_row>
+		<num_col>11</num_col>
+	</grid_dimension>
+</simulation>

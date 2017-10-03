@@ -1,0 +1,17 @@
+/* 
+    Document   : sstylesheet.css
+*/
+
+.root{
+	-fx-background: rgb(141,201,201)
+}
+
+.button {
+	-fx-font:12px "Courier New";
+	-fx-background-color: transparent	
+	
+	
+}
+.chart{
+	-fx-background: rgba(200,200,200);
+}
